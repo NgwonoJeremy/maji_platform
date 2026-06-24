@@ -1,0 +1,14 @@
+[
+    {
+        "ID":"VID 001",
+        "Name":"Derrick Otieno",
+        "Location":"Kasarani",
+        "Status":"Verified"
+    },
+    {
+        "ID":"VID 002",
+        "Name":"Christine Pauline",
+        "Location":"Madaraka",
+        "Status":"Not Verified"
+    }
+]

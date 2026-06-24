@@ -1,0 +1,276 @@
+:root {
+  --page-bg:        #4FC3E8;  
+  --card-bg:        #FFFFFF;
+  --header-bg:      #1E2A4A;  
+  --header-text:    #FFFFFF;
+  --text-primary:   #1A1F2B;
+  --text-secondary: #6B7280;
+  --accent:         #2563EB;
+  --row-alt:        #F8FAFC;
+  --row-hover:       #EFF4FF;
+  --divider:        #EDF1F7;  
+  --shadow:         0 4px 14px rgba(16, 24, 40, 0.12);
+}
+
+
+
+.admin-body {
+  background-color: var(--page-bg);
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+}
+
+
+
+.main-body {
+  width: 100%;
+  max-width: 1000px;
+  padding: 32px 20px 60px;
+  display: flex;
+  flex-direction: column;
+  box-sizing:border-box;
+  align-items: center;
+  margin:0 auto;
+}
+
+
+
+.dash-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0 0 24px;
+  letter-spacing: -0.3px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+
+
+.orders-container,
+.vendor-container,
+.analytics-section {
+  background-color: var(--card-bg);
+  border: none;                 
+  border-radius: 22px;          
+  box-shadow: var(--shadow);
+  padding: 24px 20px 32px ;
+  margin-bottom: 28px;
+  overflow: hidden;
+  width:100%;
+  flex-shrink: 0;
+}
+.orders-container{
+  margin-top: auto;
+}
+.analytics-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 20px 20px; 
+  text-align: center;
+  width: 100%;
+  margin-bottom:auto;
+}
+
+.table-heading,
+.vendor-container h2 {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 0 20px 16px;
+  margin: 0 0 4px;
+  border-bottom: 2px solid var(--divider);
+  padding-bottom: 14px;
+}
+
+
+
+.orders-table,
+.vendor-table {
+  width: 100%;
+  border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.orders-table thead,
+.orders-table tbody,
+.orders-table tr,
+.vendor-table thead,
+.vendor-table tbody,
+.vendor-table tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.orders-table th,
+.vendor-table th {
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 14px 18px;
+}
+
+.orders-table td,
+.vendor-table td {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-primary);
+  padding: 13px 16px;
+  border-bottom: 1px solid var(--divider);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.order-row:nth-child(even),
+.vendor-row:nth-child(even) {
+  background-color: var(--row-alt);
+}
+
+.order-row,
+.vendor-row {
+  transition: background-color 0.15s ease;
+}
+
+.order-row:hover,
+.vendor-row:hover {
+  background-color: var(--row-hover);
+}
+
+.order-row:last-child td,
+.vendor-row:last-child td {
+  border-bottom: none;
+}
+
+.order-id,
+.vendor-id {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.amount {
+  font-weight: 700;
+}
+
+.status,
+.vendor-status {
+  font-weight: 600;
+}
+
+.view-all-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.view-all-btn {
+  background-color: var(--header-bg);
+  color: #ffffff;
+  border: none;
+  padding: 9px 30px;
+  border-radius: 999px;        
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;       
+  display: inline-block;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.view-all-btn:hover {
+  background-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+
+
+
+.analytics-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 22px 20px 18px;
+  text-align: center;
+}
+
+.total-revenue,
+.total-orders {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.total-revenue h4,
+.total-orders h4 {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.total-revenue p,
+.total-orders p {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.total-revenue p {
+  color: #15803D;
+}
+
+
+/*RESPONSIVE */
+@media (max-width: 600px) {
+  .main-body {
+    padding: 20px 14px 40px;
+  }
+
+  .dash-title {
+    font-size: 21px;
+    margin-bottom: 18px;
+  }
+
+  .orders-table th,
+  .vendor-table th {
+    font-size: 10px;
+    padding: 10px 12px;
+  }
+
+  .orders-table td,
+  .vendor-table td {
+    font-size: 12.5px;
+    padding: 11px 12px;
+  }
+
+  .total-revenue p,
+  .total-orders p {
+    font-size: 19px;
+  }
+
+  .view-all-btn {
+    padding: 8px 24px;
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "ID":"OD_01",
+        "Customer":"John Mwangi",
+        "Location":"Kasarani",
+        "Capacity":"60L",
+        "Amount":"Ksh.150",
+        "Status":"On the way"
+    },
+    {
+        "ID":"OD_02",
+        "Customer":"Karen Otis",
+        "Location":"Lang'ata",
+        "Capacity":"120L",
+        "Amount":"Ksh.300",
+        "Status":"Yet to be confirmed"
+    }
+]
