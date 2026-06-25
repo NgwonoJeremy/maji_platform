@@ -1,7 +1,7 @@
 import React from 'react';
 import './Admin_dash.css';
-import Orders from '../data/Orders.json';
-import Vendors from '../data/Vendor.json';
+import Orders from '../admin/data/Orders.json';
+import Vendors from '../admin/data/Vendor.json';
 import { useNavigate } from 'react-router-dom';
 
 const AdminDashboard = () => {
