@@ -1,7 +1,4 @@
-/* ============================================
-   FILE: src/App.css
-   Global styles
-   ============================================ */
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +18,7 @@ body {
   min-height: 100vh;
 }
 
-/* Scrollbar Styles */
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
