@@ -1,0 +1,20 @@
+:root {
+  --blue-deep: #061e2e;
+  --blue-dark: #0a2f45;
+  --blue-mid: #0f405a;
+  --blue-medium: #1a5a7a;
+  --blue-light: #3a7a9a;
+  --blue-pale: #8ab4cc;
+  --blue-wash: #d4e4ee;
+
+  
+  --text-dark: #041520;
+  --text-soft: #1a3a4a;
+  --bg-warm: #e8eef2;
+  --bg-card: #f5f8fa;
+  
+ 
+  --accent-blue: #0f405a;
+  --border-soft: #b0c8d4;
+  --shadow-blue: rgba(6, 30, 46, 0.2);
+}

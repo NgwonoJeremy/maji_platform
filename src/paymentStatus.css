@@ -1,0 +1,39 @@
+.payment-summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  border: 1px solid rgba(15, 64, 90, 0.15);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 14px;
+}
+
+.payment-summary strong {
+  color: var(--blue-mid);
+  font-size: 1.2rem;
+}
+
+.payment-message {
+  margin-top: 14px;
+  color: var(--blue-mid);
+  font-weight: 700;
+}
+
+
+.status-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.status-row p {
+  margin-bottom: 0;
+}
+
+.status-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: var(--blue-medium);
+  box-shadow: 0 0 0 8px rgba(26, 90, 122, 0.15);
+}

@@ -1,0 +1,60 @@
+button {
+  min-height: 42px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: 0 16px;
+  align-self: end;
+  background: var(--blue-mid);
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: var(--blue-deep);
+  box-shadow: 0 4px 12px rgba(6, 30, 46, 0.35);
+  border-color: transparent;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--blue-mid);
+  outline-offset: 2px;
+}
+
+
+.secondary-button {
+  width: 100%;
+  margin-top: 14px;
+  background: transparent;
+  border: 2px solid var(--blue-mid);
+  color: var(--blue-mid);
+}
+
+.secondary-button:hover {
+  background: rgba(15, 64, 90, 0.08);
+  border-color: var(--blue-deep);
+  color: var(--blue-deep);
+  box-shadow: 0 4px 12px rgba(6, 30, 46, 0.15);
+}
+
+
+.option-button {
+  width: 100%;
+  text-align: left;
+}
+
+.place-order-button {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.payment-button {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.feedback-button {
+  width: 100%;
+  margin-top: 16px;
+}

@@ -1,0 +1,36 @@
+.feedback-card {
+  border: 1px solid rgba(15, 64, 90, 0.15);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 16px;
+}
+
+.feedback-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.feedback-summary h3,
+.feedback-summary p {
+  margin-bottom: 6px;
+}
+
+.feedback-summary span {
+  color: var(--blue-mid);
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.feedback-message {
+  margin-top: 12px;
+  color: var(--blue-mid);
+  font-weight: 700;
+}
+
+.feedback-field select {
+  color: var(--text-dark);
+  background: rgba(255, 255, 255, 0.9);
+}

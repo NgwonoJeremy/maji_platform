@@ -1,0 +1,68 @@
+.history-list {
+  display: grid;
+  gap: 12px;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  border: 1px solid rgba(15, 64, 90, 0.15);
+  border-radius: 8px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.history-item p {
+  margin-bottom: 0;
+}
+
+.history-item span {
+  color: var(--blue-mid);
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+/* Current & Previous Orders */
+.current-order-box,
+.previous-orders-box {
+  border: 1px solid rgba(15, 64, 90, 0.15);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 16px;
+}
+
+.current-order-box {
+  margin-bottom: 16px;
+}
+
+.current-order-box h3,
+.previous-orders-box h3 {
+  margin-bottom: 12px;
+  color: var(--blue-dark);
+}
+
+.current-order-box p,
+.previous-order-item p {
+  margin-bottom: 8px;
+}
+
+.previous-orders-list {
+  display: grid;
+  gap: 12px;
+}
+
+.previous-order-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  border: 1px solid rgba(15, 64, 90, 0.15);
+  border-radius: 8px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.previous-order-item span {
+  color: var(--blue-mid);
+  font-weight: 700;
+}

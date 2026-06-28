@@ -1,0 +1,46 @@
+/* Panel Base */
+.panel {
+  border: 1px solid rgba(15, 64, 90, 0.15);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(2px);
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(6, 30, 46, 0.08);
+}
+
+.panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.eyebrow {
+  margin: 0 0 4px;
+  color: var(--blue-medium);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Typography */
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h2 {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  color: var(--blue-dark);
+}
+
+h3 {
+  color: var(--blue-dark);
+}
+
+p {
+  color: var(--text-soft);
+}
