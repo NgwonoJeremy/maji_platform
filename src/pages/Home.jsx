@@ -10,7 +10,7 @@ function Home() {
         <nav className="nav">
           <a href="#who">Who Are We?</a>
           <a href="#what">How It Works</a>
-          <Link to="/login" className="nav-cta">Sign in</Link>
+          <Link to="/Roles" className="nav-cta">Get Started</Link>
         </nav>
       </header>
 
@@ -29,11 +29,8 @@ function Home() {
             Running low on water? Order jerricans from verified vendors near you.
           </p>
           <div className="hero-actions">
-            <Link to="/login">
-              <button className="btn-primary">Order Water</button>
-            </Link>
-            <Link to="/register">
-              <button className="btn-ghost">Become a Vendor</button>
+            <Link to="/Roles">
+              <button className="btn-primary">Get started</button>
             </Link>
           </div>
         </div>
@@ -71,15 +68,6 @@ function Home() {
             <h3>Receive and rate</h3>
             <p>Your feedback keeps the whole network honest and accountable.</p>
           </div>
-        </div>
-
-        <div className="btn-container">
-          <Link to="/login">
-            <button className="btn-primary">Order Water</button>
-          </Link>
-          <Link to="/register">
-            <button className="btn-ghost">Become a Vendor</button>
-          </Link>
         </div>
       </section>
 
