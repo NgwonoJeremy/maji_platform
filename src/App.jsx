@@ -1,3 +1,10 @@
+import 'leaflet/dist/leaflet.css';
+import CustomerDashboard from "./Pages/customer/CustomerDashboard";
+import './App.css';
+function App() {
+  return <CustomerDashboard />;
+
+}
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AdminDashboard from './Pages/admin/Admin_dash';
 import AllOrders from './Pages/admin/AllOrders';
