@@ -10,7 +10,7 @@
 }
 
 .back-btn {
-  background-color: var(--header-bg, #1E2A4A);
+  background-color:  #1E2A4A;
   color: #ffffff;
   border: none;
   padding: 9px 24px;
@@ -24,34 +24,30 @@
   gap: 6px;
 }
 
-.back-btn:hover {
-  background-color: var(--accent, #2563EB);
-  transform: translateY(-1px);
-}
 
 .page-title {
-  font-size: 26px;
+  font-size: 46px;
   font-weight: 700;
-  color: #000000;
+  color: black;
   margin: 0;
   letter-spacing: -0.3px;
   flex: 1;
   text-align: center;
 }
 
-.record-count {
-  font-size: 14px;
+.order-count {
+  font-size: 20px;
   font-weight: 600;
-  color: var(--text-secondary, #6B7280);
-  background-color: var(--row-alt, #F8FAFC);
+  color:black;
+  background-color:#6B7280;
   padding: 8px 18px;
   border-radius: 999px;
   white-space: nowrap;
 }
 
 
-.full-page {
-  background-color: var(--card-bg, #FFFFFF);
+.all-orders-container {
+  background-color: white;
   border: none;
   border-radius: 22px;
   box-shadow: var(--shadow, 0 4px 14px rgba(16, 24, 40, 0.12));
@@ -67,7 +63,7 @@
   font-weight: 700;
   letter-spacing: 0.6px;
   text-transform: uppercase;
-  color: var(--text-secondary, #6B7280);
+  color:  #6B7280;
   text-align: center;
   padding: 0 20px 16px;
   margin: 0 0 4px;

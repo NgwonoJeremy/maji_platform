@@ -50,8 +50,6 @@ const AdminDashboard = () => {
               ))}
             </tbody>
           </table>
-          {/* REMOVED the bottom "View All" button */}
-          {/* Only showing the count */}
           <div className="table-footer">
             <span>Showing 5 of {Orders.length} orders</span>
           </div>
@@ -87,7 +85,6 @@ const AdminDashboard = () => {
               ))}
             </tbody>
           </table>
-          {/* REMOVED the bottom "View All" button */}
           <div className="table-footer">
             <span>Showing 5 of {Vendors.length} vendors</span>
           </div>

@@ -1,12 +1,16 @@
 import deliveryman from "../assets/deliveryman.png";
 import { Link } from "react-router-dom";
 import "../Home.css";
-
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faDroplet } from '@fortawesome/free-solid-svg-icons';
 function Home() {
   return (
     <>
       <header className="site-header">
-          <div className="logo-text">Maji</div>
+          <div className="logo-text">
+            Maji
+            <FontAwesomeIcon icon={faDroplet} />
+          </div>
         <nav className="nav">
           <a href="#who">Who Are We?</a>
           <a href="#what">How It Works</a>

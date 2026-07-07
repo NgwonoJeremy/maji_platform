@@ -1,5 +1,4 @@
 
-/* Page Header */
 .page-header-wrapper {
   display: flex;
   justify-content: space-between;
@@ -31,27 +30,27 @@
 }
 
 .page-title {
-  font-size: 26px;
+  font-size: 46px;
   font-weight: 700;
-  color: #000000;
+  color: black;
   margin: 0;
   letter-spacing: -0.3px;
   flex: 1;
   text-align: center;
 }
 
-.record-count {
-  font-size: 14px;
+.vendor-count {
+  font-size: 20px;
   font-weight: 600;
-  color: var(--text-secondary, #6B7280);
-  background-color: var(--row-alt, #F8FAFC);
+  color: black;
+  background-color:#6B7280;
   padding: 8px 18px;
   border-radius: 999px;
   white-space: nowrap;
 }
 
 
-.full-page {
+.all-vendors-container {
   background-color: var(--card-bg, #FFFFFF);
   border: none;
   border-radius: 22px;
@@ -62,7 +61,6 @@
   flex-shrink: 0;
 }
 
-/* Table heading - matches dashboard */
 .full-page .table-heading {
   font-size: 15px;
   font-weight: 700;
@@ -88,24 +86,14 @@
   font-weight: 600;
 }
 
-.full-page .vendor-status[data-status="Verified"] {
-  color: #15803D;
-}
 
-.full-page .vendor-status[data-status="Pending"] {
-  color: #B45309;
-}
-
-.full-page .vendor-status[data-status="Rejected"] {
-  color: #DC2626;
-}
 
 /* Responsive adjustments */
-@media (max-width: 600px) {
+@media (max-width:600px) {
   .page-header-wrapper {
     flex-direction: column;
     align-items: stretch;
-    gap: 10px;
+    gap:10px;
   }
 
   .page-title {
