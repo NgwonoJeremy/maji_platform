@@ -1,25 +1,30 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'leaflet/dist/leaflet.css';
-import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from "./pages/Home";
-import Roles from "./pages/Roles";
 import CustomerDashboard from "./Pages/customer/CustomerDashboard";
+import './App.css';
+function App() {
+  return <CustomerDashboard />;
+
+}
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AdminDashboard from './Pages/admin/Admin_dash';
 import AllOrders from './Pages/admin/AllOrders';
 import AllVendors from './Pages/admin/AllVendors';
+import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/roles" element={<Roles />} />
-        <Route path="/admin" element={<AdminDashboard />} />
-        <Route path="/customer" element={<CustomerDashboard />} />
-        <Route path="/orders" element={<AllOrders />} />
-        <Route path="/vendors" element={<AllVendors />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="app">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<AdminDashboard />} />
+          <Route path="/orders" element={<AllOrders />} />
+          <Route path="/vendors" element={<AllVendors />} />
+          <Route path="/vendor/register" element={<VendorRegister />} />
+          <Route path="/vendor/dashboard" element={<VendorDashboard />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

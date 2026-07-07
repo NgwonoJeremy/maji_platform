@@ -26,7 +26,7 @@ function Roles() {
           <h3>Vendor</h3>
           <p>I sell and deliver water.</p>
 
-          <Link to="/vendor">
+          <Link to="/vendor/register">
             <button className="role-btn">Continue as Vendor</button>
           </Link>
         </div>
