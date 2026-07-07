@@ -23,7 +23,7 @@ body {
   line-height: 1.6;
 }
 
-a {
+a{
   color: var(--blue-light);
   text-decoration: none;
 }
