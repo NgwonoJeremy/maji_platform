@@ -1,16 +1,84 @@
-# React + Vite
+# Maji-Platform
+_____
+A Kenyan frontend webapp that seeks to minimize sutruggle of sourcing reliable water solutions, built to connect the customers to the vendors.
+Current solutions,have a high minimum quantity for each order.This does not match the user's situation.
+MAJI-PLATFORM however we provide access to water from any quantity,from 20L which is the minimum fucntional capacity.
+_____
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Built with :
 
-Currently, two official plugins are available:
+- **React Js Framework**
+- **JavaScript**
+- **HTML and CSS**
+_____
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stand-Out Features
 
-## React Compiler
+- A customer is able to order any quantity of water from 20L , which is unavaiable with the current solutions.
+- Provides an admin dahsboard where the admin can track the major metrics.
+- An easy to use UI.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+______
 
-## Expanding the ESLint configuration
+## Running the app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Pre-requisities
+
+Make sure you have :
+- [Node.js] https://nodejs.org/en 
+- npm (usually comes with Node.js)
+
+### Installation
+
+1.Clone the repo
+
+```bash
+https://github.com/NgwonoJeremy/maji_platform.git
+```
+
+2.Navigate to project folder
+
+```bash
+cd maji_platform
+```
+
+3.Install Dependecies
+
+```bash
+npm install
+```
+
+4.Running the app
+
+```bash
+npm run dev
+```
+Then open the local URL shown in your terminal (usually `http://localhost:5173`) in your browser.
+____
+### Project structure
+
+```
+maji_platform/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/   # Resuable webpage features eg. navbar
+│   ├── Pages/    
+│   │   ├── admin/    # Admin Page
+│   │   ├── customer/ # Customer Page
+│   │   ├── vendor/   # Vendor Page
+│   │   └── ...
+│   ├── styles/       # Styling for various pages
+│   ├── App.jsx       # Main app component
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+
+``` 
+
+
+
+
+ 
+
