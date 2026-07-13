@@ -1,6 +1,6 @@
 # Maji-Platform
 _____
-A Kenyan frontend webapp that seeks to minimize sutruggle of sourcing reliable water solutions, built to connect the customers to the vendors.
+A Kenyan 🇰🇪 frontend webapp that seeks to minimize struggle of sourcing reliable water solutions, built to connect the customers to the vendors.
 Current solutions,have a high minimum quantity for each order.This does not match the user's situation.
 MAJI-PLATFORM however we provide access to water from any quantity,from **20L** which is the minimum functional capacity.
 _____
