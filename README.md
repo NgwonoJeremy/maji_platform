@@ -44,7 +44,7 @@ https://github.com/NgwonoJeremy/maji_platform.git
 cd maji_platform
 ```
 
-3.Install Dependecies
+3.Install Dependencies
 
 ```bash
 npm install
