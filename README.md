@@ -17,7 +17,7 @@ _____
 ## Stand-Out Features
 
 - A customer is able to order any quantity of water from 20L , which is unavailable with the current solutions.
-- Provides an admin dahsboard where the admin can track the major metrics.
+- Provides an admin dashboard where the admin can track the major metrics.
 - An easy to use UI.
 
 ______
